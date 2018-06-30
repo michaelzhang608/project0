@@ -5,6 +5,10 @@
     color: white;
     font-weight: bold; }
 
+.col {
+  margin: 5px;
+  height: auto; }
+
 .container img {
   width: 100%; }
 
