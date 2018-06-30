@@ -1,5 +1,14 @@
+// Harvard crimson red
+$background: #c90016;
+
 .jumbotron
 {
-    color:#30393a;
-    border-bottom: 5px solid #c90016;
+    color: #30393a;
+    background: $background;
+
+    > h1
+    {
+        color: white;
+        font-weight: bold;
+    }
 }

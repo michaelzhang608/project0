@@ -1,5 +1,8 @@
-.jumbotron
-{
-    color:#30393a;
-    border-bottom: 5px solid #c90016;
-}
+.jumbotron {
+  color: #30393a;
+  background: #c90016; }
+  .jumbotron > h1 {
+    color: white;
+    font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
