@@ -1,14 +1,27 @@
-// Harvard crimson red
-$background: #c90016;
+// Website Theme
+$theme: #c90016;
 
 .jumbotron
 {
     color: #30393a;
-    background: $background;
+    background: $theme;
 
     > h1
     {
         color: white;
         font-weight: bold;
+    }
+}
+
+a
+{
+    background: $theme;
+}
+
+.container
+{
+    img
+    {
+        width: 100%;
     }
 }

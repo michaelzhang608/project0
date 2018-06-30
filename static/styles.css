@@ -5,4 +5,10 @@
     color: white;
     font-weight: bold; }
 
+a {
+  background: #c90016; }
+
+.container img {
+  width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
