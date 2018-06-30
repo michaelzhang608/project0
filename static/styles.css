@@ -1,12 +1,9 @@
 .jumbotron {
   color: #30393a;
-  background: #c90016; }
+  background: #0084b4; }
   .jumbotron > h1 {
     color: white;
     font-weight: bold; }
-
-a {
-  background: #c90016; }
 
 .container img {
   width: 100%; }
