@@ -1,15 +1,17 @@
 .jumbotron {
   color: #30393a;
-  background: #0084b4; }
+  background: #61b2ed; }
   .jumbotron > h1 {
     color: white;
     font-weight: bold; }
 
 .col {
-  margin: 5px;
-  height: auto; }
+  margin: 5px; }
 
-.container img {
-  width: 100%; }
+.container > img {
+  width: 100%;
+  margin: 5px;
+  border-style: solid;
+  border-width: 2px; }
 
 /*# sourceMappingURL=styles.css.map */
