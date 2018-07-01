@@ -14,4 +14,8 @@
   border-style: solid;
   border-width: 2px; }
 
+@media (max-width: 499px) {
+  #title {
+    display: none; } }
+
 /*# sourceMappingURL=styles.css.map */
