@@ -1,3 +1,14 @@
+@media (max-width: 499px) {
+  #title {
+    display: none; } }
+#foot {
+  text-align: center; }
+
+#foods {
+  margin: auto; }
+  #foods th {
+    border: 1px solid #61b2ed; }
+
 .jumbotron {
   color: #30393a;
   background: #61b2ed; }
@@ -16,15 +27,7 @@
   border-style: solid;
   border-width: 2px; }
 
-@media (max-width: 499px) {
-  #title {
-    display: none; } }
-#foot {
+.centered {
   text-align: center; }
-
-#foods {
-  margin: auto; }
-  #foods th {
-    border: 1px solid black; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,49 +1,54 @@
 <!DOCTYPE html>
-<head>
-        <!--https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="static/styles.css">
+<html lang="en">
 
-        <link rel="shortcut icon" type="image/x-icon" href="static/images/cup.jpeg" />
+  <head>
 
-        <title>A Short Guide for Tourism in Downtown Boston</title>
+    <!--Required meta data-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
-<body>
-  <div class="container-fluid">
+    <!--https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/styles.css">
+
+    <title>A Short Guide for Tourism in Downtown Boston</title>
+
+  </head>
+
+  <body>
+
+    <!--Container with title-->
+    <div class="container-fluid">
       <div class="jumbotron">
-          <h1><span id="title">A Short Guide for </span>Tourism in Downtown Boston</h1>
-          <h4>By Michael Zhang</h4>
+        <h1><span id="title">A Short Guide for </span>Tourism in Downtown Boston</h1>
+        <h4>By Michael Zhang</h4>
       </div>
-  </div>
+    </div>
 
-  <ul class="list-group">
-    <li class="list-group-item"><a href="index.html">Back to Homepage</a></li>
-    <li class="list-group-item"><a href="general.html">General Pictures</a></li>
-    <li class="list-group-item"><a href="marina.html">The Marina</a></li>
-    <li class="list-group-item"><a href="oldcityhall.html">Old City Hall</a></li>
-    <li class="list-group-item"><a href="quincymarket.html">Quincy Market</a></li>
-    <li class="list-group-item"><a href="simonstheatre.html">Simons Theatre</a></li>
-  </ul>
+    <!--Links to all pages of site-->
+    <ul class="list-group">
+      <li class="list-group-item"><a href="index.html">Back to Homepage</a></li>
+      <li class="list-group-item"><a href="general.html">General Pictures</a></li>
+      <li class="list-group-item"><a href="marina.html">The Marina</a></li>
+      <li class="list-group-item"><a href="oldcityhall.html">Old City Hall</a></li>
+      <li class="list-group-item"><a href="quincymarket.html">Quincy Market</a></li>
+      <li class="list-group-item"><a href="simonstheatre.html">Simons Theatre</a></li>
+    </ul>
 
-  <br>
+    <br>
 
-  <div align="center">
-    <h1 id="page_title">QUINCY MARKET</h1>
-    <p>
-     Full of life and full of food.
-    </p>
-  </div>
+    <div class="centered">
+      <h1>QUINCY MARKET</h1>
+      <p>It has a lot of food.</p>
 
-
-    <div class="container">
+      <!--Table containing foods from the market-->
       <table id="foods">
         <tr>
           <th>Types of Food</th>
           <th>Quantity in the market</th>
         </tr>
-        <tr>
+          <tr>
           <td>Ice Cream</td>
           <td>A good amount</td>
         </tr>
@@ -56,13 +61,16 @@
           <td>A few</td>
         </tr>
       </table>
-      <br>
-      <img src="static/images/quincymarket/1.JPG">
     </div>
-</body>
 
-<footer>
-    <div>
-        <p align="center">Photos taken by Michael Zhang 2018</p>
+    <div class="container">
+      <img src="static/images/general/1.JPG" alt="image1">
     </div>
-</footer>
+
+    <footer>
+      <p class="centered">Photos taken by Michael Zhang 2018</p>
+    </footer>
+
+  </body>
+
+</html>

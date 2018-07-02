@@ -1,9 +1,21 @@
-// Website Theme
+// Website Theme Color
 $theme: #61b2ed;
 
 @media (max-width: 499px) {
     #title {
       display: none;
+    }
+}
+
+#foot {
+    text-align: center;
+}
+
+#foods {
+    margin: auto;
+
+    th {
+        border: 1px solid $theme;
     }
 }
 
@@ -35,17 +47,6 @@ $theme: #61b2ed;
 }
 
 .centered {
-    margin: auto;
-}
-
-#foot {
     text-align: center;
 }
 
-#foods {
-    margin: auto;
-
-    th {
-        border: 1px solid black;
-    }
-}
