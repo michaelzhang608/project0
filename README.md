@@ -31,7 +31,7 @@ I took these pictures from my trip to Downtown Boston last Friday. I hope you gu
 4. (Quincy market) "quincymarket.html":
 	* same as other pages with pictures, but has a <table> containing some foods at the market
 
-5. image files in "static/images/"
+5. "static/images/"
 	* contains the image files for the pages with pictures
 
 6. "styles.scss"
