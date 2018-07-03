@@ -50,3 +50,17 @@ $theme: #61b2ed;
     text-align: center;
 }
 
+a:active
+{
+    background-color: $theme;
+}
+
+.card-title::after
+{
+    content: " Pictures";
+}
+
+#foods:hover
+{
+    background-color: $theme;
+}

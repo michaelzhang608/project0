@@ -30,4 +30,13 @@
 .centered {
   text-align: center; }
 
+a:active {
+  background-color: #61b2ed; }
+
+.card-title::after {
+  content: " Pictures"; }
+
+#foods:hover {
+  background-color: #61b2ed; }
+
 /*# sourceMappingURL=styles.css.map */
