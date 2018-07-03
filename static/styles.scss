@@ -1,44 +1,54 @@
 // Website Theme Color
 $theme: #61b2ed;
 
-@media (max-width: 499px) {
-    #title {
+@media (max-width: 499px)
+{
+    #title
+    {
       display: none;
     }
 }
 
-#foot {
+#foot
+{
     text-align: center;
 }
 
-#foods {
+#foods
+{
     margin: auto;
 
-    th {
+    th
+    {
         border: 1px solid $theme;
     }
 }
 
-.jumbotron {
+.jumbotron
+{
     color: #30393a;
     background: $theme;
 
-    > h1 {
+    > h1
+    {
         color: white;
         font-weight: bold;
     }
 }
 
-.col {
+.col
+{
     margin-bottom: 5px;
     margin-left: 3px;
     margin-right: 3px;
     margin-top: 3px;
 }
 
-.container {
+.container
+{
 
-    > img {
+    > img
+    {
         @extend .col;
         width: 100%;
         border-style: solid;
